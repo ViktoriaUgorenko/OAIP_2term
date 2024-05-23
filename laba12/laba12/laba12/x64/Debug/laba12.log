@@ -1,0 +1,41 @@
+﻿Сборка начата 15.05.2024 15:10:27.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\user\Desktop\OAIP\laba12\laba12\laba12\laba12.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "x64\Debug\laba12.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt 12.cpp fun.cpp
+         12.cpp
+         fun.cpp
+     1>C:\Users\user\Desktop\OAIP\laba12\laba12\laba12\fun.cpp(104,1): warning C4005: A1: изменение макроопределения
+         C:\Users\user\Desktop\OAIP\laba12\laba12\laba12\fun.cpp(93,1):
+         см. предыдущее определение "A1"
+         
+     1>C:\Users\user\Desktop\OAIP\laba12\laba12\laba12\fun.cpp(187,25): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+     1>C:\Users\user\Desktop\OAIP\laba12\laba12\laba12\fun.cpp(196,1): warning C4005: A1: изменение макроопределения
+         C:\Users\user\Desktop\OAIP\laba12\laba12\laba12\fun.cpp(104,1):
+         см. предыдущее определение "A1"
+         
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Desktop\OAIP\laba12\laba12\x64\Debug\laba12.exe" /INCREMENTAL /ILK:"x64\Debug\laba12.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\Desktop\OAIP\laba12\laba12\x64\Debug\laba12.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Desktop\OAIP\laba12\laba12\x64\Debug\laba12.lib" /MACHINE:X64 x64\Debug\12.obj
+         x64\Debug\fun.obj
+         laba12.vcxproj -> C:\Users\user\Desktop\OAIP\laba12\laba12\x64\Debug\laba12.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\laba12.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\laba12.tlog\laba12.lastbuildstate".
+     1>Сборка проекта "C:\Users\user\Desktop\OAIP\laba12\laba12\laba12\laba12.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\user\Desktop\OAIP\laba12\laba12\laba12\laba12.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\user\Desktop\OAIP\laba12\laba12\laba12\fun.cpp(104,1): warning C4005: A1: изменение макроопределения
+         C:\Users\user\Desktop\OAIP\laba12\laba12\laba12\fun.cpp(187,25): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+         C:\Users\user\Desktop\OAIP\laba12\laba12\laba12\fun.cpp(196,1): warning C4005: A1: изменение макроопределения
+
+    Предупреждений: 3
+    Ошибок: 0
+
+Прошло времени 00:00:02.17
